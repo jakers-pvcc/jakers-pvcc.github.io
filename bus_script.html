@@ -24,7 +24,7 @@
 			numriders=prompt("Enter the number of riders going on the field trip:");
 			
 		//perform calculations
-			numbuses=math.floor(numriders/maxbusriders);
+			numbuses=Math.floor(numriders/maxbusriders);
 			remainder=numriders%maxbusriders;
 			if(remainder>=0 && remainder<6)
 				{vanriders=remainder;}
@@ -43,7 +43,7 @@
 <body>
 	<form>
 		<input type="button" value="Click here for the field trip bus requirements"
-			class="calcbutton" onclick="findnumbuses()">
+			class="calcbutton" onclick="findnumbuses()" />
 	</form>
 </body>
 
