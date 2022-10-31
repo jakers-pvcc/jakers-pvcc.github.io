@@ -1,5 +1,7 @@
 # Joshua C. Akers
 # PP: Calculate Pizza orders
+# Error Notes: This version is heavily flawed. Cannot figure out how to separate each type, and they all run at once. The display() only gives
+# the last total available.
 
 import datetime
 
